@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 const Wrapper = styled.article`
   background: var(--white);
   box-shadow: var(--shadow-2);
@@ -28,6 +28,6 @@ const Wrapper = styled.article`
       color: var(--grey-500);
     }
   }
-`;
+`
 
-export default Wrapper;
+export default Wrapper

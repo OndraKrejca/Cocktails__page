@@ -1,5 +1,6 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/AboutPage'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -20,6 +21,9 @@ const About = () => {
         quod corporis quasi magnam impedit adipisci sit error, asperiores porro
         earum accusantium labore dolorem fuga ipsam?
       </p>
+      <Link to={'/'} className='btn' style={{ marginTop: '3rem' }}>
+        Back home
+      </Link>
     </Wrapper>
   )
 }
