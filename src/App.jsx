@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: loaderLanding,
+        loader: loaderLanding(clietnQuery),
         errorElement: <SinglePageError />,
         element: <Landing />,
       },
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         path: 'cocktail/:id',
         errorElement: <SinglePageError />,
         element: <Cocktail />,
-        loader: singleCocktailLoader,
+        loader: singleCocktailLoader(clietnQuery),
       },
     ],
   },
